@@ -1,0 +1,20 @@
+opencv-python>=4.5.0
+pillow>=8.0.0
+customtkinter>=5.0.0
+numpy>=1.19.0
+# Video Filter Studio - Dependencies
+opencv-python>=4.5.0
+pillow>=8.0.0
+customtkinter>=5.0.0
+numpy>=1.19.0
+
+# ===== INSTALLATION INSTRUCTIONS =====
+# 1. Install all requirements using pip:
+#    pip install -r requirements.txt
+#
+# 2. Make sure you have a working webcam connected to your computer
+#
+# ===== RUNNING THE APPLICATION =====
+# Run the application using:
+#    python main.py
+
