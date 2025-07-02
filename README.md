@@ -1,6 +1,6 @@
 # 🖼️ ImageVision — Smart Image Processing Toolkit
 
-![banner](assets/banner.png)
+![banner](image.png)
 
 **ImageVision** is a modern Python-based application that brings image processing to life — whether you're enhancing photos from your device or applying real-time filters to your webcam feed. Built with ❤️ using OpenCV and Tkinter, this project blends powerful computer vision with an intuitive interface for a truly interactive experience.
 
