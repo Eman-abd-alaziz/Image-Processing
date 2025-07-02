@@ -1,60 +1,58 @@
-# 🖼️ Image Processing App
+# 🖼️ ImageVision — Smart Image Processing Toolkit
 
-![Image Processing Banner](assets/banner.png)
+![banner](assets/banner.png)
 
-Image Processing App is a Python-based educational and practical toolkit that enables users to explore and apply essential image processing techniques through an interactive interface or real-time camera feed. Designed with students and developers in mind, the app combines GUI interactivity with real-time computer vision to demonstrate how various filters affect digital images and video frames.
+**ImageVision** is a modern Python-based application that brings image processing to life — whether you're enhancing photos from your device or applying real-time filters to your webcam feed. Built with ❤️ using OpenCV and Tkinter, this project blends powerful computer vision with an intuitive interface for a truly interactive experience.
 
-The application consists of two main modules:
-
-- 🖼️ **Part 1** – Upload image from device and apply processing filters via GUI.
-- 📷 **Part 2** – Apply filters to live webcam feed (global or face-only).
+> 🎯 Ideal for students, hobbyists, and anyone curious about how image filters really work.
 
 ---
 
-## 🧩 Table of Contents
+## 📌 Highlights
 
-- [🚀 Core Features](#-core-features)
-- [🛠️ Technologies Used](#-technologies-used)
-- [⚙️ Getting Started](#-getting-started)
-- [📂 Project Structure](#-project-structure)
-- [🧠 Learning Outcomes](#-learning-outcomes)
-- [📸 Demo Screenshots](#-demo-screenshots)
-- [📬 Contact](#-contact)
+✨ **Two powerful modes, one seamless experience**:
+- 🖼️ **Image Lab** – Upload any image and apply filters like a pro
+- 🎥 **Live Cam FX** – Activate webcam with real-time face-aware filtering
+
+🔧 **No prior experience needed** – just run the script and explore!
 
 ---
 
-## 🚀 Core Features
+## 🚀 Features
 
-### 🧾 Image Upload and Processing (GUI)
-Users can upload images and apply filters interactively through a Tkinter-based GUI. Features include:
-- 🖤 Grayscale Conversion  
-- 🌞 Brightness Adjustment  
+### 🔹 Image Lab (Interactive GUI)
+- 🎨 Grayscale Conversion  
+- 💡 Brightness Control  
 - 📊 Histogram Equalization  
-- ⚫ Salt & Pepper Noise Addition  
-- 🧹 Mean & Median Filters for Noise Removal  
-- 🌀 Gaussian Blur  
-- ✨ Image Sharpening  
-- 💧 Watermark Insertion  
-- 🔁 Before/After Image Comparison  
+- 🌪️ Salt & Pepper Noise Injection  
+- 🧽 Mean & Median Denoising  
+- 🔎 Sharpening & Gaussian Blur  
+- 💧 Add Custom Watermarks  
+- 🆚 Side-by-side Before & After Comparison  
 
-### 📷 Real-Time Camera Filters
-The second module accesses the webcam and allows users to:
-- Apply filters globally on all video frames.
-- Detect faces using Haar cascades and apply filters to face regions only.
-- View live camera feed with dynamic processing.
+### 🔹 Live Cam FX (Webcam Filters)
+- 📸 Real-time video feed with OpenCV  
+- 🧠 Face Detection with Haar Cascades  
+- 🎭 Apply filters to:
+  - Entire frame  
+  - Faces only  
+- ⚙️ Flexible and fast processing pipeline  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-| Library / Tool      | Description                                      |
-|---------------------|--------------------------------------------------|
-| 🐍 Python           | Primary programming language                     |
-| 🖼️ OpenCV           | Image and video processing                       |
-| 🧱 Tkinter          | Graphical user interface for desktop interaction |
-| 🧾 PIL (Pillow)     | Image conversions and rendering                  |
-| 📁 os, sys          | File and path management                         |
+| Tool           | Purpose                                      |
+|----------------|----------------------------------------------|
+| **Python**     | Main programming language                    |
+| **OpenCV**     | Image/video processing, filters, webcam      |
+| **Tkinter**    | GUI for user interaction                     |
+| **Pillow**     | Image format conversion (OpenCV ↔ Tkinter)   |
+| **OS / sys**   | File management and system utilities         |
 
-Install required packages:
+> Requires Python 3.7 or newer.
+
+### 🔧 Installation
+
 ```bash
 pip install opencv-python Pillow
